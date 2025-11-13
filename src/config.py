@@ -49,18 +49,19 @@ VALIDATION_SIZE = 0.2  # Of training data
 
 # Hyperparameter search space for Bayesian Optimization
 XGBOOST_PARAM_SPACE = {
-    'model__n_estimators': (100, 500),  # Reduced for faster testing
+    'model__n_estimators': (100, 500), 
     'model__max_depth': (3, 8),
     'model__learning_rate': (0.01, 0.3, 'log-uniform'),
     'model__subsample': (0.6, 1.0),
     'model__colsample_bytree': (0.6, 1.0),
     'model__gamma': (0, 5),
-    'model__reg_alpha': (0, 5),  # Reduced range
-    'model__reg_lambda': (1, 5)   # Reduced range
+    'model__reg_alpha': (0, 5),  
+    'model__reg_lambda': (1, 5)   
 }
 
 # SMOTE configuration
 SMOTE_SAMPLING_STRATEGY = 0.1  # 10% fraud rate in training
 
 # Threshold optimization
+
 THRESHOLD_RANGE = (0.01, 0.99, 0.01)
