@@ -1,0 +1,125 @@
+{
+    "initial_metrics": {
+        "precision": 0.8484848484848485,
+        "recall": 0.9713937918441875,
+        "f1_score": 0.905788876276958,
+        "roc_auc": 0.9989013931521644,
+        "pr_auc": 0.9853982128057827,
+        "true_negatives": 552154,
+        "false_positives": 285,
+        "false_negatives": 47,
+        "true_positives": 1596,
+        "false_positive_rate": 0.0005158940625118792,
+        "false_negative_rate": 0.028606208155812538,
+        "true_positive_rate": 0.9713937918441875,
+        "true_negative_rate": 0.9994841059374882,
+        "fraud_capture_rate": 0.9713937918441875,
+        "false_alarm_rate": 0.0005158940625118792,
+        "accuracy": 0.999400810710328,
+        "confusion_matrix": {
+            "true_negatives": 552154,
+            "false_positives": 285,
+            "false_negatives": 47,
+            "true_positives": 1596
+        },
+        "total_samples": 554082,
+        "fraud_prevalence": 0.002965265069069199,
+        "classification_report": {
+            "0": {
+                "precision": 0.9999148860650379,
+                "recall": 0.9994841059374882,
+                "f1-score": 0.999699449594438,
+                "support": 552439.0
+            },
+            "1": {
+                "precision": 0.8484848484848485,
+                "recall": 0.9713937918441875,
+                "f1-score": 0.905788876276958,
+                "support": 1643.0
+            },
+            "accuracy": 0.999400810710328,
+            "macro avg": {
+                "precision": 0.9241998672749432,
+                "recall": 0.9854389488908378,
+                "f1-score": 0.9527441629356981,
+                "support": 554082.0
+            },
+            "weighted avg": {
+                "precision": 0.9994658558641935,
+                "recall": 0.999400810710328,
+                "f1-score": 0.9994209798517634,
+                "support": 554082.0
+            }
+        }
+    },
+    "final_metrics": {
+        "precision": 0.9140350877192982,
+        "recall": 0.9513085818624467,
+        "f1_score": 0.9322994333432747,
+        "roc_auc": 0.9989013931521644,
+        "pr_auc": 0.9853982128057827,
+        "true_negatives": 552292,
+        "false_positives": 147,
+        "false_negatives": 80,
+        "true_positives": 1563,
+        "false_positive_rate": 0.00026609272697981136,
+        "false_negative_rate": 0.048691418137553254,
+        "true_positive_rate": 0.9513085818624467,
+        "true_negative_rate": 0.9997339072730201,
+        "fraud_capture_rate": 0.9513085818624467,
+        "false_alarm_rate": 0.00026609272697981136,
+        "accuracy": 0.9995903133471219,
+        "confusion_matrix": {
+            "true_negatives": 552292,
+            "false_positives": 147,
+            "false_negatives": 80,
+            "true_positives": 1563
+        },
+        "total_samples": 554082,
+        "fraud_prevalence": 0.002965265069069199,
+        "classification_report": {
+            "0": {
+                "precision": 0.9998551700665493,
+                "recall": 0.9997339072730201,
+                "f1-score": 0.9997945349928631,
+                "support": 552439.0
+            },
+            "1": {
+                "precision": 0.9140350877192982,
+                "recall": 0.9513085818624467,
+                "f1-score": 0.9322994333432747,
+                "support": 1643.0
+            },
+            "accuracy": 0.9995903133471219,
+            "macro avg": {
+                "precision": 0.9569451288929238,
+                "recall": 0.9755212445677335,
+                "f1-score": 0.9660469841680689,
+                "support": 554082.0
+            },
+            "weighted avg": {
+                "precision": 0.9996006907741405,
+                "recall": 0.9995903133471219,
+                "f1-score": 0.9995943941256085,
+                "support": 554082.0
+            }
+        }
+    },
+    "optimal_threshold": 0.98,
+    "model_parameters": {
+        "model__colsample_bytree": 0.7981711980140942,
+        "model__gamma": 0,
+        "model__learning_rate": 0.29999999999999993,
+        "model__max_depth": 8,
+        "model__n_estimators": 500,
+        "model__reg_alpha": 0,
+        "model__reg_lambda": 5,
+        "model__subsample": 0.7062861387893676
+    },
+    "data_info": {
+        "training_samples": 2216327,
+        "test_samples": 554082,
+        "training_fraud_rate": 0.0029643640130720783,
+        "test_fraud_rate": 0.002965265069069199
+    }
+}
