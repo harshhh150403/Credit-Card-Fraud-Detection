@@ -1,1 +1,7 @@
 
+├── data/
+│   ├── raw/
+│   │   └── paysim.csv  <-- You must add your raw CSV file here
+│   └── processed/
+│       └──             <-- This folder will be used by the pipeline
+│
